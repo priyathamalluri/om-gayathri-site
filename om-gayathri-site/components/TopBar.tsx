@@ -6,12 +6,12 @@ export default function TopBar() {
         <div className="flex items-center gap-6">
           {/* Email */}
           <div className="flex items-center gap-2">
-            <span className="text-3xl leading-none relative -top-[2px]">✉</span>
+            <span className="text-3xl leading-none relative -top-[px]">✉</span>
             <a
-              href="mailto:omgayathriavn@gmail.com"
+              href="mailto:raju@omgayathriagencies.com"
               className="hover:underline"
             >
-              omgayathriavn@gmail.com
+              raju@omgayathriagencies.com
             </a>
           </div>
 
