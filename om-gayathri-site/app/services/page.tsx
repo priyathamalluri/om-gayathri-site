@@ -47,7 +47,7 @@ export default function ServicesPage() {
             href="/contact"
             className="rounded-full bg-[#4FA4CB] px-6 py-3 text-white font-semibold hover:opacity-95"
           >
-            Enquiry
+            Enquire
           </Link>
         </div>
 

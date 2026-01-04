@@ -157,7 +157,7 @@ export default function Home() {
               href="/contact"
               className="inline-flex items-center justify-center rounded-full bg-[#4FA4CB] px-10 py-4 text-white text-lg font-semibold shadow-soft hover:opacity-95"
             >
-              Enquiry
+              Send an Inquiry
             </Link>
           </div>
         </div>
