@@ -8,11 +8,11 @@ export default function TopBar() {
 
           {/* Email */}
           <a
-            href="mailto:raju@omgayathriagencies.com"
+            href="mailto:info@omgayathriagencies.com"
             className="flex items-center gap-2 hover:underline"
           >
             <Mail className="h-6 w-6" />
-            raju@omgayathriagencies.com
+            info@omgayathriagencies.com
           </a>
 
           {/* Phone */}
