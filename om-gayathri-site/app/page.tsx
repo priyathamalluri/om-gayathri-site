@@ -16,9 +16,9 @@ export default function Home() {
             {/* Left content */}
             <div>
               <h2 className="text-4xl sm:text-5xl font-semibold tracking-tight text-brand-ink">
-  WELCOME TO <br />
-  <span className="block">OM GAYATHRI AGENCIES</span>
-</h2>
+                WELCOME TO <br />
+                <span className="block">OM GAYATHRI AGENCIES</span>
+              </h2>
 
               <ul className="mt-6 space-y-4 text-base sm:text-lg text-brand-ink/80">
                 <li className="flex gap-3">
@@ -55,15 +55,17 @@ export default function Home() {
               <div className="relative overflow-hidden rounded-lg border border-black/10 bg-black/5">
                 <div className="relative h-[260px] sm:h-[340px] lg:h-[380px]">
                   <Image
-                    src="/slider/slide1.jpg"
-                    alt="Om Gayathri Agencies"
+                    src="/company-image.png"
+                    alt="Om Gayathri Agencies facility in Kondapalli"
                     fill
                     className="object-cover"
+                    priority
+                    sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                 </div>
 
                 {/* Accent bar */}
-                <div className="absolute bottom-0 right-0 h-12 w-44 bg-[#4FA4CB]" />
+                <div className="absolute bottom-3 right-3 h-4 w-0 bg-[#4FA4CB]" />
               </div>
             </div>
           </div>
@@ -81,10 +83,10 @@ export default function Home() {
             </h3>
 
             <p className="mt-5 text-brand-ink/80 max-w-4xl mx-auto text-base sm:text-lg">
-  Om Gayathri Agencies provides comprehensive petroleum and civil
-  contracting solutions, supported by experienced professionals and a
-  commitment to quality, reliability, and operational excellence.
-</p>
+              Om Gayathri Agencies provides comprehensive petroleum and civil
+              contracting solutions, supported by experienced professionals and a
+              commitment to quality, reliability, and operational excellence.
+            </p>
           </div>
 
           {/* Cards */}
@@ -94,9 +96,7 @@ export default function Home() {
               <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full border border-black/15">
                 <Factory className="h-10 w-10 text-[#4FA4CB]" />
               </div>
-              <div className="mt-6 text-sm text-gray-500">
-                Nature of Business
-              </div>
+              <div className="mt-6 text-sm text-gray-500">Nature of Business</div>
               <div className="mt-2 text-lg font-semibold text-brand-ink">
                 Petroleum and Civil Works
               </div>
@@ -123,9 +123,7 @@ export default function Home() {
               <div className="mt-6 text-sm text-gray-500">
                 Year of Establishment
               </div>
-              <div className="mt-2 text-lg font-semibold text-brand-ink">
-                2005
-              </div>
+              <div className="mt-2 text-lg font-semibold text-brand-ink">2005</div>
             </div>
 
             {/* Card 4 */}
@@ -133,9 +131,7 @@ export default function Home() {
               <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full border border-black/15">
                 <Globe className="h-10 w-10 text-[#4FA4CB]" />
               </div>
-              <div className="mt-6 text-sm text-gray-500">
-                Market Covered
-              </div>
+              <div className="mt-6 text-sm text-gray-500">Market Covered</div>
               <div className="mt-2 text-lg font-semibold text-brand-ink">
                 All India
               </div>
@@ -143,28 +139,29 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       {/* ================= Enquiry Button Section ================= */}
-<section className="bg-white">
-  <div className="mx-auto max-w-6xl px-4 py-20 text-center">
-    <h3 className="text-3xl sm:text-4xl font-semibold text-brand-ink">
-      Have a Project in Mind?
-    </h3>
+      <section className="bg-white">
+        <div className="mx-auto max-w-6xl px-4 py-20 text-center">
+          <h3 className="text-3xl sm:text-4xl font-semibold text-brand-ink">
+            Have a Project in Mind?
+          </h3>
 
-    <p className="mt-4 text-brand-ink/70 max-w-2xl mx-auto text-base sm:text-lg">
-      Reach out to Om Gayathri Agencies for petroleum and civil works enquiries.
-      Our team will get back to you promptly.
-    </p>
+          <p className="mt-4 text-brand-ink/70 max-w-2xl mx-auto text-base sm:text-lg">
+            Reach out to Om Gayathri Agencies for petroleum and civil works
+            enquiries. Our team will get back to you promptly.
+          </p>
 
-    <div className="mt-10">
-      <a
-        href="/contact"
-        className="inline-flex items-center justify-center rounded-full bg-[#4FA4CB] px-10 py-4 text-white text-lg font-semibold shadow-soft hover:opacity-95"
-      >
-        Enquiry
-      </a>
-    </div>
-  </div>
-</section>
+          <div className="mt-10">
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center rounded-full bg-[#4FA4CB] px-10 py-4 text-white text-lg font-semibold shadow-soft hover:opacity-95"
+            >
+              Enquiry
+            </Link>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
