@@ -24,9 +24,9 @@ export default function Contact() {
               <div className="text-brand-muted">Email</div>
               <a
                 className="font-semibold text-brand-teal hover:underline"
-                href="mailto:raju@omgayathriagencies.com"
+                href="mailto:info@omgayathriagencies.com"
               >
-                raju@omgayathriagencies.com
+                info@omgayathriagencies.com
               </a>
             </div>
 
