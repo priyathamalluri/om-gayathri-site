@@ -23,6 +23,9 @@ export const metadata: Metadata = {
     "fabrication",
     "site development",
   ],
+  verification: {
+    google: "ZHPL6ZqjJyEbhh0nGnMUpp6ekdo0ueYp8AfWGbvYW4k",
+  },
   openGraph: {
     type: "website",
     url: "https://omgayathriagencies.com",
