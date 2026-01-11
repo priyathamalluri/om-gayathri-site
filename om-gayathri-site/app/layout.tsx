@@ -32,11 +32,6 @@ export const metadata: Metadata = {
     google: "ZHPL6ZqjJyEbhh0nGnMUpp6ekdo0ueYp8AfWGbvYW4k",
   },
 
-  // ✅ Favicon (browser tab icon) — set to your Om image
-  icons: {
-    icon: "/favicon.png", // put your Om image at /app/favicon.png OR /public/favicon.png
-  },
-
   openGraph: {
     type: "website",
     url: "https://omgayathriagencies.com",
