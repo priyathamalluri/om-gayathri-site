@@ -32,6 +32,10 @@ export const metadata: Metadata = {
     google: "ZHPL6ZqjJyEbhh0nGnMUpp6ekdo0ueYp8AfWGbvYW4k",
   },
 
+  icons: {
+  icon: "/icon.png",
+},
+
   openGraph: {
     type: "website",
     url: "https://omgayathriagencies.com",
